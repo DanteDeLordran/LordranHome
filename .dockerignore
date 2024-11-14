@@ -1,0 +1,27 @@
+# Node modules and Bun cache
+node_modules
+.bun
+
+# Build output (if you want only fresh builds inside Docker)
+build
+
+# SvelteKit-specific folders
+.svelte-kit
+.vite
+
+# Environment files
+.env
+.env.*
+
+# Git and other VCS files
+.git
+.gitignore
+
+# Editor and OS-specific files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+*.log
