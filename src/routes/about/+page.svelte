@@ -1,6 +1,6 @@
 <svelte:head>
     <title>About</title>
-    <desc>About page for DanteDeLordran</desc>
+    <meta name="description" content="About">
 </svelte:head>
 
 <h1>About</h1>
