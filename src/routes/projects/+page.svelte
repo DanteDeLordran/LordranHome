@@ -1,6 +1,6 @@
 <svelte:head>
     <title>Projects</title>
-    <desc>Projects page for DanteDeLordran</desc>
+    <meta name="description" content="Projects">
 </svelte:head>
 
 <h1>Projects</h1>
