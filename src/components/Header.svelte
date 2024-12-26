@@ -4,11 +4,11 @@
 
 <header class="container">
     <nav
-        class="flex justify-between md:justify-around py-4 bg-white/80 backdrop-blur-sm shadow-md w-full px-10 fixed top-0 left-0 right-0 z-10 md:px-3"
+        class="flex justify-between md:justify-around py-4 bg-[#0A1026] backdrop-blur-sm shadow-md w-full px-10 fixed top-0 left-0 right-0 z-10 md:px-3"
     >
         <div class="flex items-center">
             <a class="cursor-pointer" href="/">
-                <h3 class="text-2xl font-medium text-blue-500">
+                <h3 class="text-2xl font-medium text-white hover:text-[#01C979]">
                     DanteDeLordran
                 </h3>
             </a>
@@ -18,7 +18,7 @@
         >
             {#each routes as route}
                 <a
-                    class="flex text-gray-600 hover:text-blue-500 cursor-pointer transition-colors duration-300"
+                    class="flex text-white hover:text-[#01C979] cursor-pointer transition-colors duration-300"
                     href={route.path}>{route.name}</a
                 >
             {/each}
