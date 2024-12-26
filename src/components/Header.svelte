@@ -1,10 +1,10 @@
 <script>
-import { routes } from "../utils/routes";
+    import { routes } from "../utils/routes";
 </script>
 
 <header class="container">
     <nav
-        class="flex justify-between md:justify-around py-4 bg-white/80 backdrop-blur-md shadow-md w-full px-10 fixed top-0 left-0 right-0 z-10 md:px-3"
+        class="flex justify-between md:justify-around py-4 bg-white/80 backdrop-blur-sm shadow-md w-full px-10 fixed top-0 left-0 right-0 z-10 md:px-3"
     >
         <div class="flex items-center">
             <a class="cursor-pointer" href="/">
