@@ -1,6 +1,12 @@
 <script>
     import { contacts } from "../utils/contacts";
     import { routes } from "../utils/routes";
+
+    const date = new Date();
+    const day = date.getDate();
+    const month = date.getMonth() + 1;
+    const year = date.getFullYear();
+    const currentDate = `${day}-${month}-${year}`
 </script>
 
 <footer class="bg-[#0A1026] pt-5 sm:mt-10 w-full">
@@ -8,7 +14,9 @@
         <!-- Col-1 -->
         <div class="p-4 w-1/2 sm:w-4/12 md:w-3/12">
             <!-- Col Title -->
-            <div class="text-xs uppercase text-white hover:text-[#01C979] mb-5 cursor-pointer transition-colors duration-300">
+            <div
+                class="text-xs uppercase text-white hover:text-[#01C979] mb-5 cursor-pointer transition-colors duration-300"
+            >
                 Sections
             </div>
 
@@ -23,7 +31,9 @@
         </div>
 
         <div class="p-4 w-1/2 sm:w-4/12 md:w-3/12">
-            <div class="text-xs uppercase text-white hover:text-[#01C979] font-medium mb-5 cursor-pointer transition-colors duration-300">
+            <div
+                class="text-xs uppercase text-white hover:text-[#01C979] font-medium mb-5 cursor-pointer transition-colors duration-300"
+            >
                 Contact
             </div>
             {#each contacts as contact}
@@ -43,7 +53,9 @@
         <div
             class="flex pb-5 px-3 m-auto pt-4 border-t border-[#01C979] text-white text-sm flex-col md:flex-row max-w-6xl"
         >
-            <div class="mt-2">Last updated 12-26-2024</div>
+            <div class="mt-2">
+                Last updated {currentDate}
+            </div>
         </div>
     </div>
 </footer>
