@@ -8,7 +8,12 @@ export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
 
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        'lordran-green': '#01C979',
+        'lordran-blue': '#0A1026'
+      }
+    }
   },
 
   plugins: [typography, forms, containerQueries, aspectRatio]

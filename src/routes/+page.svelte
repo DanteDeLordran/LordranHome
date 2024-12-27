@@ -1,3 +1,10 @@
+<script>
+    import Python from "../components/logos/Python.svelte";
+import Rust from "../components/logos/Rust.svelte";
+    import Svelte from "../components/logos/Svelte.svelte";
+    import TypeScript from "../components/logos/TypeScript.svelte";
+
+</script>
 <svelte:head>
     <title>Home</title>
     <meta name="description" content="Home" />
@@ -15,7 +22,7 @@
                 class="mb-4 text-3xl text-white font-bold text-left lg:text-5xl"
             >
                 Software Engineer Building
-                <span class="text-5xl text-[#01C979] leading-relaxeds"
+                <span class="text-5xl text-lordran-green leading-relaxeds"
                     >Armored Software
                 </span>
             </h2>
@@ -24,13 +31,13 @@
         <div class="text-center lg:text-left">
             <a
                 href="/about"
-                class="block visible py-4 px-8 mb-4 text-xs font-semibold tracking-wide leading-none text-[#0A1026] bg-[#01C979] rounded cursor-pointer sm:mr-3 sm:mb-0 sm:inline-block hover:bg-[#0A1026] hover:text-[#01C979] transition-colors duration-300"
+                class="block visible py-4 px-8 mb-4 text-xs font-semibold tracking-wide leading-none text-lordran-blue bg-lordran-green rounded cursor-pointer sm:mr-3 sm:mb-0 sm:inline-block hover:bg-lordran-blue hover:text-lordran-green transition-colors duration-300"
                 >About</a
             >
 
             <a
                 href="/services"
-                class="block visible py-4 px-8 text-xs font-semibold leading-none bg-[#0A1026] rounded border border-solid cursor-pointer sm:inline-block border-[#01C979] text-[#01C979] hover:bg-[#01C979] hover:text-[#0A1026] hover:border-[#0A1026] transition-colors duration-300"
+                class="block visible py-4 px-8 text-xs font-semibold leading-none bg-lordran-blue rounded border border-solid cursor-pointer sm:inline-block border-lordran-green text-lordran-green hover:bg-lordran-green hover:text-lordran-blue hover:border-lordran-blue transition-colors duration-300"
                 >Services</a
             >
         </div>
@@ -38,8 +45,9 @@
 
     <!-- Column-2 -->
     <div class="px-3 mb-12 w-full lg:mb-0 lg:w-3/5">
-        <!-- Illustrations Container -->
-        <div class="flex justify-center items-center"></div>
+        <div class="flex justify-center items-center">
+            
+        </div>
     </div>
 </section>
 
@@ -49,7 +57,10 @@
 
     <div class="px-3 mb-12 w-full lg:mb-0 lg:w-3/5">
         <div class="flex justify-center items-center text-white">
-            
+            <Rust/>
+            <Svelte/>
+            <Python/>
+            <TypeScript/>
         </div>
     </div>
 
@@ -61,11 +72,11 @@
                 class="mb-4 text-3xl text-white font-bold text-left lg:text-5xl"
             >
                 I Believe In
-                <span class="text-5xl text-[#01C979] leading-relaxeds"
+                <span class="text-5xl text-lordran-green leading-relaxeds"
                     >Fast
                 </span>
                 and
-                <span class="text-5xl text-[#01C979] leading-relaxeds"
+                <span class="text-5xl text-lordran-green leading-relaxeds"
                     >Reliable
                 </span>
                 Software

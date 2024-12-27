@@ -9,13 +9,13 @@
     const currentDate = `${day}-${month}-${year}`
 </script>
 
-<footer class="bg-[#0A1026] pt-5 sm:mt-10 w-full">
-    <div class="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left">
+<footer class="bg-lordran-blue pt-5 sm:mt-10 w-full">
+    <div class="max-w-6xl m-auto flex flex-wrap justify-left">
         <!-- Col-1 -->
         <div class="p-4 w-1/2 sm:w-4/12 md:w-3/12">
             <!-- Col Title -->
             <div
-                class="text-xs uppercase text-white hover:text-[#01C979] mb-5 cursor-pointer transition-colors duration-300"
+                class="text-xs uppercase text-white hover:text-lordran-green mb-5 cursor-pointer transition-colors duration-300"
             >
                 Sections
             </div>
@@ -23,7 +23,7 @@
             {#each routes as route}
                 <a
                     href={route.path}
-                    class="my-2 block text-white hover:text-[#01C979] text-sm cursor-pointer transition-colors duration-300"
+                    class="my-2 block text-white hover:text-lordran-green text-sm cursor-pointer transition-colors duration-300"
                 >
                     {route.name}
                 </a>
@@ -32,7 +32,7 @@
 
         <div class="p-4 w-1/2 sm:w-4/12 md:w-3/12">
             <div
-                class="text-xs uppercase text-white hover:text-[#01C979] font-medium mb-5 cursor-pointer transition-colors duration-300"
+                class="text-xs uppercase text-white hover:text-lordran-green font-medium mb-5 cursor-pointer transition-colors duration-300"
             >
                 Contact
             </div>
@@ -40,7 +40,7 @@
                 <a
                     href={contact.path}
                     target="_blank"
-                    class="my-2 block text-white hover:text-[#01C979] text-sm cursor-pointer transition-colors duration-300"
+                    class="my-2 block text-white hover:text-lordran-green text-sm cursor-pointer transition-colors duration-300"
                 >
                     {contact.name}
                 </a>
@@ -51,7 +51,7 @@
     <!-- Copyright Bar -->
     <div class="pt-1">
         <div
-            class="flex pb-5 px-3 m-auto pt-4 border-t border-[#01C979] text-white text-sm flex-col md:flex-row max-w-6xl"
+            class="flex pb-5 px-3 m-auto pt-4 border-t border-lordran-green text-white text-sm flex-col md:flex-row max-w-6xl"
         >
             <div class="mt-2">
                 Last updated {currentDate}
