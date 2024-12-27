@@ -5,10 +5,12 @@
 	const { children } = $props();
 </script>
 
-<div class="bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-lordran-green via-lordran-blue to-lordran-blue">
+<div class="bg-custom-radial bg-lordran-blue">
 	<Header />
 
-	<main class="flex flex-col items-center justify-center sm:pt-36 sm:pb-32 pt-56 pb-56">
+	<main
+		class="flex flex-col items-center justify-center sm:pt-36 sm:pb-32 pt-56 pb-56"
+	>
 		{@render children()}
 	</main>
 
