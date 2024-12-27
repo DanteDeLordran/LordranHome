@@ -1,8 +1,9 @@
 <script lang="ts">
-    export let width = 100;
-    export let color = "#FFFFFF"; // Change this to a visible color if needed
+    let {
+        width = 100,
+        color = "#FFFFFF" 
+    } = $props()
 </script>
-
 
 <svg viewBox="0 0 128 128" {width}>
     <path 
