@@ -1,11 +1,12 @@
 <script lang="ts">
     let {
         width = 100,
-        color = "#FFFFFF" 
+        color = "#FFFFFF",
+        classname = ""
     } = $props()
 </script>
 
-<svg viewBox="0 0 128 128" {width}>
+<svg viewBox="0 0 128 128" {width} class={classname}>
     <linearGradient id="python-original-a" gradientUnits="userSpaceOnUse" x1="70.252" y1="1237.476" x2="170.659" y2="1151.089" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)">
         <stop offset="0" stop-color="#5A9FD4"></stop>
         <stop offset="1" stop-color="#306998"></stop>
