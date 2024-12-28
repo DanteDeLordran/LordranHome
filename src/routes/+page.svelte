@@ -1,14 +1,13 @@
 <script>
-    import Docker from "../components/logos/Docker.svelte";
-    import GoogleCloud from "../components/logos/GoogleCloud.svelte";
-    import Kubernetes from "../components/logos/Kubernetes.svelte";
-    import Postgres from "../components/logos/Postgres.svelte";
+import Docker from "../components/logos/Docker.svelte";
+import GoogleCloud from "../components/logos/GoogleCloud.svelte";
+import Kubernetes from "../components/logos/Kubernetes.svelte";
+import Postgres from "../components/logos/Postgres.svelte";
+import PyTorch from "../components/logos/PyTorch.svelte";
 import Python from "../components/logos/Python.svelte";
-    import PyTorch from "../components/logos/PyTorch.svelte";
 import Rust from "../components/logos/Rust.svelte";
-    import Svelte from "../components/logos/Svelte.svelte";
-    import TypeScript from "../components/logos/TypeScript.svelte";
-
+import Svelte from "../components/logos/Svelte.svelte";
+import TypeScript from "../components/logos/TypeScript.svelte";
 </script>
 <svelte:head>
     <title>Home</title>
