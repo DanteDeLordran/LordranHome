@@ -1,7 +1,8 @@
 <script>
-    import { projects } from "../../utils/projects";
-</script>
 
+    import { projects } from "../../utils/projects";
+
+</script>
 <svelte:head>
     <title>Projects</title>
     <meta name="description" content="Projects">
