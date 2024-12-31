@@ -1,23 +1,17 @@
-
 interface Project {
-    status : 'pending' | 'working' | 'ready',
-    title: string,
-    description: string,
-    stack : string[],
-    url: string
+    status: 'pending' | 'working' | 'ready';
+    title: string;
+    description: string;
+    stack: string[];
+    url: string;
 }
 
-export const projects : Project[] = [
-
+export const projects: Project[] = [
     {
         status: "pending",
-        title: 'Placeholder',
-        description: 'Placeholder',
-        stack: [
-            'Rust',
-            'Actix'
-        ],
-        url: 'http://localhost:80'
-    }
-
-] 
+        title: 'Dash Droid',
+        description: 'A Geometry Dash player bot trained through reinforcement learning.',
+        stack: ['Python', 'PyTorch'],
+        url: 'http://example.com/dash-droid'
+    },
+];
